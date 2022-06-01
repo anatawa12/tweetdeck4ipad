@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76C61205AC249DAFCE9BD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76C6BB8D14FB89D4AEFE786 /* LaunchScreen.storyboard */; };
+		A76C6188258E7C44FD1C682B /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = A76C64E57D2859406883BE95 /* LICENSE */; };
+		A76C61A544FE8E3E9569D0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76C6280844971D7F4BF03FD /* Main.storyboard */; };
+		A76C6596D0D4E97F1E8B611B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76C6F8A480876D0C2EFDD02 /* Assets.xcassets */; };
+		A76C65CA1D65FB6CA5C754FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C6446AD65E4A9E81B6ECD /* AppDelegate.swift */; };
+		A76C6951DD670F6589D782A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C6AFDEB4CB61180CE88C7 /* ViewController.swift */; };
+		A76C69783C1FCA4D4D738B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C6CD21C28375159CD6F13 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A76C6446AD65E4A9E81B6ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A76C64E57D2859406883BE95 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A76C654ED8EE23E99B44399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A76C67995CC619F5D2165D7B /* tweetdeck4ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetdeck4ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76C68DBD224D8940F07212B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		A76C6AFDEB4CB61180CE88C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A76C6CD21C28375159CD6F13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A76C6DAA828A8CB00F02ACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A76C6DFB2BED8104DABBA7A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A76C6F8A480876D0C2EFDD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A76C6FFF5F1657329CDE99CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76C6DED8553068D32A5FE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76C6179C63B3A569AABF83F /* tweetdeck4ipad */ = {
+			isa = PBXGroup;
+			children = (
+				A76C6F8A480876D0C2EFDD02 /* Assets.xcassets */,
+				A76C6446AD65E4A9E81B6ECD /* AppDelegate.swift */,
+				A76C6BB8D14FB89D4AEFE786 /* LaunchScreen.storyboard */,
+				A76C654ED8EE23E99B44399D /* Info.plist */,
+				A76C6CD21C28375159CD6F13 /* SceneDelegate.swift */,
+				A76C6AFDEB4CB61180CE88C7 /* ViewController.swift */,
+				A76C6280844971D7F4BF03FD /* Main.storyboard */,
+			);
+			path = tweetdeck4ipad;
+			sourceTree = "<group>";
+		};
+		A76C635B8C2EB25E5FB10D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76C67995CC619F5D2165D7B /* tweetdeck4ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76C6736CDB6DA4D327DA9B5 = {
+			isa = PBXGroup;
+			children = (
+				A76C635B8C2EB25E5FB10D2F /* Products */,
+				A76C6179C63B3A569AABF83F /* tweetdeck4ipad */,
+				A76C68DBD224D8940F07212B /* .gitignore */,
+				A76C6DFB2BED8104DABBA7A2 /* README.md */,
+				A76C64E57D2859406883BE95 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76C64FA95BFA25CD39FCB09 /* tweetdeck4ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76C6F22A4A8915C44390A24 /* Build configuration list for PBXNativeTarget "tweetdeck4ipad" */;
+			buildPhases = (
+				A76C60FB43ED720D504E6B86 /* Sources */,
+				A76C6DED8553068D32A5FE96 /* Frameworks */,
+				A76C6E9ABA0FAF1D3AD26287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tweetdeck4ipad;
+			productName = tweetdeck4ipad;
+			productReference = A76C67995CC619F5D2165D7B /* tweetdeck4ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76C62A6C472D63A5712F55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					A76C64FA95BFA25CD39FCB09 = {
+						DevelopmentTeam = S5PWVU2PQ8;
+					};
+				};
+			};
+			buildConfigurationList = A76C64DEF628998C9DA5CE5F /* Build configuration list for PBXProject "tweetdeck4ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A76C6736CDB6DA4D327DA9B5;
+			productRefGroup = A76C635B8C2EB25E5FB10D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76C64FA95BFA25CD39FCB09 /* tweetdeck4ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76C6E9ABA0FAF1D3AD26287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76C6596D0D4E97F1E8B611B /* Assets.xcassets in Resources */,
+				A76C61205AC249DAFCE9BD1A /* LaunchScreen.storyboard in Resources */,
+				A76C61A544FE8E3E9569D0AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76C60FB43ED720D504E6B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76C65CA1D65FB6CA5C754FD /* AppDelegate.swift in Sources */,
+				A76C69783C1FCA4D4D738B3D /* SceneDelegate.swift in Sources */,
+				A76C6951DD670F6589D782A4 /* ViewController.swift in Sources */,
+				A76C6188258E7C44FD1C682B /* LICENSE in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A76C6280844971D7F4BF03FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76C6FFF5F1657329CDE99CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A76C6BB8D14FB89D4AEFE786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76C6DAA828A8CB00F02ACE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76C6365DB2A4AD705F883D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5PWVU2PQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tweetdeck4ipad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatawa12.tweetdeck4ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A76C64D42EE30D5FF178FF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76C64E22D128360A661BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A76C6DFE0ADEAB837062916E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5PWVU2PQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tweetdeck4ipad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatawa12.tweetdeck4ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76C64DEF628998C9DA5CE5F /* Build configuration list for PBXProject "tweetdeck4ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76C64E22D128360A661BF8E /* Debug */,
+				A76C64D42EE30D5FF178FF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76C6F22A4A8915C44390A24 /* Build configuration list for PBXNativeTarget "tweetdeck4ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76C6DFE0ADEAB837062916E /* Debug */,
+				A76C6365DB2A4AD705F883D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76C62A6C472D63A5712F55F /* Project object */;
+}
