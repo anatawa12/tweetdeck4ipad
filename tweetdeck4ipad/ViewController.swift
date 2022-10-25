@@ -29,7 +29,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
                       const style = document.createElement("style");
                       style.innerHTML = `
                       html {
-                        --scale: 0.7;
+                        --scale: 0.6;
                         transform-origin: top left;
                         transform: scale(var(--scale));
                         width: calc(100% / var(--scale));
