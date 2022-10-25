@@ -42,7 +42,12 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
                       .js-app-columns.app-columns>* {
                         direction: ltr;
-                      }`;
+                      }
+
+                      .tweet-action .icon {
+                        font-size: 24px;
+                      }
+                      `;
                       document.head.append(style)
                     })()
                     """, injectionTime: .atDocumentEnd, forMainFrameOnly: true))
